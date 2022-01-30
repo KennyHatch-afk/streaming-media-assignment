@@ -11,19 +11,19 @@ const getIndex = (request, response) => {
 };
 
 const getBling = (request, response) => {
-    response.writeHead(200, { 'Content-Type': 'text/html'});
-    response.write(bling);
-    response.end();
+  response.writeHead(200, { 'Content-Type': 'text/html' });
+  response.write(bling);
+  response.end();
 };
 
 const getBird = (request, response) => {
-    response.writeHead(200, { 'Content-Type': 'text/html'});
-    response.write(bird);
-    response.end();
+  response.writeHead(200, { 'Content-Type': 'text/html' });
+  response.write(bird);
+  response.end();
 };
 
 module.exports = {
-    getIndex,
-    getBling,
-    getBird
+  getIndex,
+  getBling,
+  getBird,
 };
